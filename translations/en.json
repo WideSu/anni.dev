@@ -5,13 +5,13 @@
             "name": "Anni HUANG",
             "title": "A passionate Data Engineer",
             "paragraph-one": "I'm a Research Scientist(AI in Healthcare) working in A*STAR-SMU Joint Lab",
-            "paragraph-two": "If you scroll down a bit, you can check out some of my recent projects and see what I've been up to. Right now, I'm working at <link>EnterERP</link> and developing websites that are intuitive and easy to use while delivering real value to our customers."
+            "paragraph-two": "If you scroll down a bit, you can check out some of my recent projects and see what I've been up to. Right now, I'm working on developing localized genAI models that are small but also can give a satisfying result to users."
         },
         "AboutSection": {
             "title": "About Me",
             "paragraph-one": "Greetings! My name is Anni HUANG, and I am a Research Scientist(AI in Healthcare) working in A*STAR-SMU Joint Lab, I set out to embark on a data engineer journey.",
-            "paragraph-two": "I started by learning the fundamentals of HTML, CSS, and JavaScript, and while it was challenging, I took the time to ensure a strong understanding of these languages. This foundation has allowed me to quickly pick up more advanced frameworks and libraries, such as ReactJS, NextJS, TailwindCSS, and TypeScript.",
-            "paragraph-three": "Along the way, I have developed numerous projects, and my goal is to continue to hone my skills and become an even better developer. I am excited to see where this journey takes me, as there is always so much to explore in the ever-changing world of web development."
+            "paragraph-two": "I started by attending ACM competitions from junior high school, and while it was challenging, I took the time to ensure a strong understanding of C++, Python, Jave, Go, SQL. This foundation has allowed me to quickly pick up more advanced frameworks and libraries, such as Django, Spring Boot, NextJS, TailwindCSS, and TypeScript.",
+            "paragraph-three": "Along the way, I have developed numerous projects, and my goal is to continue to hone my skills and become an even better data engineer and a future data scientist. I am excited to see where this journey takes me, as there is always so much to explore in the ever-changing world of data science."
         },
         "PortfolioSection": {
             "title": "Some Projects I've Built",
@@ -88,6 +88,6 @@
         "contact": "Contact",
         "resume": "Resume"
     },
-    "default-seo-title": "Portfolio | Serdar Gökhan",
-    "default-seo-description": "I’m a front-end developer also a mechatronics engineer building scalable, cross-browser compatible, performant, and responsive websites."
+    "default-seo-title": "Portfolio | Anni HUANG",
+    "default-seo-description": "I’m a research scientist with machine learning engineer experience building scalable, fast, acuurate, reliable AI solutions on cloud."
 }
