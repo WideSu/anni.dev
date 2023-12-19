@@ -1,5 +1,5 @@
 <h1>
-  <a href="https://serdargokhan.dev" target="_blank">serdargokhan.dev</a>
+  <a href="https://anni.dev" target="_blank">serdargokhan.dev</a>
 </h1>
 
 <p>
