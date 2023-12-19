@@ -30,10 +30,10 @@ This application requires Node.js v18+.
     npm install
     ```
 
-4. Start the development server
+4. Start the development server on localhost port 3000
 
     ```sh
-    npm dev
+    npm run dev
     ```
 
 ## 🚀 Building and Running for Production
