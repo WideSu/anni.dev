@@ -40,7 +40,7 @@ export default async function RootLayout({
     );
 }
 
-const BASE_URL = "https://serdargokhan.dev";
+const BASE_URL = "https://anni.dev";
 
 export async function generateMetadata({
     params: { locale }

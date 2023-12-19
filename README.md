@@ -15,13 +15,13 @@ This application requires Node.js v18+.
 1. Clone the repository
 
     ```sh
-    git clone https://github.com/serdargokhan/serdargokhan.dev.git
+    git clone https://github.com/anni/anni.dev.git
     ```
 
 2. Navigate into the directory
 
     ```sh
-    cd serdargokhan.dev
+    cd anni.dev
     ```
 
 3. Install dependencies
