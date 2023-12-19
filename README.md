@@ -27,7 +27,7 @@ This application requires Node.js v18+.
 3. Install dependencies
 
     ```sh
-    pnpm install
+    npm install
     ```
 
 4. Start the development server
