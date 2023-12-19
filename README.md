@@ -33,7 +33,7 @@ This application requires Node.js v18+.
 4. Start the development server
 
     ```sh
-    pnpm dev
+    npm dev
     ```
 
 ## 🚀 Building and Running for Production
@@ -41,19 +41,19 @@ This application requires Node.js v18+.
 1. Generate a production build
 
     ```sh
-    pnpm build
+    npm build
     ```
 
 2. Preview the site as it will appear once deployed
 
     ```sh
-    pnpm start
+    npm start
     ```
 
 ## 📁 Folder Structure
 
 ```
-serdargokhan.dev
+anni.dev
 ├── public
 │   ├── images
 │   │   ├── common
