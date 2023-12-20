@@ -1,4 +1,4 @@
-export type Category = "nextjs" | "reactjs" | "reactNative" | "javascript";
+export type Category = "genai" | "mlops" | "dataanalytics" | "nlp" | "cv" | "recommendation" | "mp" | "fullstack";
 
 export type ProjectItem = {
     id: string;
@@ -10,7 +10,7 @@ export type ProjectItem = {
 };
 
 export const projectItems = {
-    nextjs: [
+    genai: [
         {
             id: "microsoft-todo-clone",
             title: "Microsoft To-Do Clone",
@@ -47,7 +47,7 @@ export const projectItems = {
             techStacks: ["NextJS", "TailwindCSS", "JavaScript"]
         }
     ],
-    reactjs: [
+    mlops: [
         {
             id: "create-blog-posts",
             title: "Create Blog Posts",
@@ -104,7 +104,67 @@ export const projectItems = {
             techStacks: ["ReactJS", "JavaScript"]
         }
     ],
-    reactNative: [
+    dataanalytics: [
+        {
+            id: "register-and-search-news",
+            title: "Stock recommandation via machine learning algorithms",
+            description:
+                "This is a stock recommendation project developed with Sklearn, Python, multiprocessing, Tushare API. I utilised some supervised machine learning models to choose stocks, such as Logistic Regression, Random Forest, and Support Vector Machine. With these models, I can predict the stock’s 60 days’ return rate based on stock price data from 2019Q1-2020Q1. If a specific stock outperformed the average return rate, the model would recommend holding the position. The data is from stocks of the listed companies in China from Tushare’ API, which is a financial data platform.",
+            websiteLink: "https://github.com/WideSu/Stock-recommandation-via-machine-learning-algorithms",
+            sourceLink:
+                "https://github.com/WideSu/Stock-recommandation-via-machine-learning-algorithms",
+            techStacks: [
+                "Sklearn",
+                "Seaborn",
+                "Python",
+                "multiprocessing",
+                "Tushare"
+            ]
+        },
+        {
+            id: "restaurant-search",
+            title: "Home Credit Default Risk",
+            description:
+                "This project is a kaggle challenge. I used 4 machine learning models namely Logistic Regression, SVM, Random Forest and LGBM and one deep learning model namely DeepFM to classify whether an applicant is capable to pay a loan.",
+            websiteLink: "https://github.com/WideSu/CreditRiskDetection",
+            sourceLink:
+                "https://github.com/WideSu/CreditRiskDetection",
+            techStacks: [
+                "Sklearn",
+                "PyTorch",
+                "Seaborn",
+                "Python",
+            ]
+        },
+        {
+            id: "auth-screen",
+            title: " Screen",
+            description:
+                "This is a basic UI implementation for react-native. It has just sign up and sign in screens with no interactivity like signing in. I have used bottom tab navigator with this project and also I improved my layout skills in react-native.",
+            websiteLink: "https://expo.dev/@anni/signin-signup-design",
+            sourceLink:
+                "https://github.com/anni/react-native-projects/tree/main/2-register-login-design",
+            techStacks: [
+                "React-Native",
+                "React-Navigation",
+                "Expo",
+                "TypeScript"
+            ]
+        }
+    ],
+    nlp: [
+        {
+            id: "budget-tracker",
+            title: "Multilingual Named Entity Recognition",
+            description:
+                "Multiligual Named Entity Recognition by Finetunning flair model on CoNLL 2003 dataset and WeiBo dataset. Max F1-score is 93.5% which is 0.7% lower than the SOTA reported by Wang et al. (2019)",
+            websiteLink: "https://anni-budget-tracker.netlify.app",
+            sourceLink:
+                "https://github.com/anni/javascript-projects/tree/main/5-budget-tracker",
+            techStacks: ["text-processing", "pooled-embeddings","Pandas","named-entity-recognition"]
+        }
+    ],
+    cv: [
         {
             id: "register-and-search-news",
             title: "Register and Search News",
@@ -122,78 +182,66 @@ export const projectItems = {
                 "Expo",
                 "TypeScript"
             ]
-        },
+        }
+    ],
+    recommendation: [
         {
-            id: "restaurant-search",
-            title: "Restaurant Search",
+            id: "register-and-search-news",
+            title: "Register and Search News",
             description:
-                "This is a restaurant search application. I have used Yelp API to get the data about restaurants. There is an input field on the home page for users to search restaurants. Once they search it, they can tap into the details of individual restaurant and see lots of details like reviews, images, and location of the restaurant on the map.",
-            websiteLink: "https://expo.dev/@anni/search-restaurants",
+                "This is my news application developed with React-Native. I have used lots of frameworks with this project. It has sign up and sign in screens. Once user is authenticated it redirects user to home page to show the latest news from news API. I implemented categories, search, and skeleton loading into this project. There is also a profile section which user can see information about itself.",
+            websiteLink: "https://expo.dev/@anni/news-app",
             sourceLink:
-                "https://github.com/anni/react-native-projects/tree/main/1-restaurant-search-app",
+                "https://github.com/anni/react-native-projects/tree/main/3-news-app",
             techStacks: [
                 "React-Native",
-                "React-Navigation",
-                "Expo",
-                "TypeScript"
-            ]
-        },
-        {
-            id: "auth-screen",
-            title: "Auth Screen",
-            description:
-                "This is a basic UI implementation for react-native. It has just sign up and sign in screens with no interactivity like signing in. I have used bottom tab navigator with this project and also I improved my layout skills in react-native.",
-            websiteLink: "https://expo.dev/@anni/signin-signup-design",
-            sourceLink:
-                "https://github.com/anni/react-native-projects/tree/main/2-register-login-design",
-            techStacks: [
-                "React-Native",
-                "React-Navigation",
+                "Firebase",
+                "React-Hook-Form",
+                "useSWR",
+                "Native-Base",
                 "Expo",
                 "TypeScript"
             ]
         }
     ],
-    javascript: [
+    mp: [
         {
-            id: "budget-tracker",
-            title: "Budget Tracker",
+            id: "register-and-search-news",
+            title: "Register and Search News",
             description:
-                "This is a budget tracker website. It provides some functions for user to track their budget with one screen.",
-            websiteLink: "https://anni-budget-tracker.netlify.app",
+                "This is my news application developed with React-Native. I have used lots of frameworks with this project. It has sign up and sign in screens. Once user is authenticated it redirects user to home page to show the latest news from news API. I implemented categories, search, and skeleton loading into this project. There is also a profile section which user can see information about itself.",
+            websiteLink: "https://expo.dev/@anni/news-app",
             sourceLink:
-                "https://github.com/anni/javascript-projects/tree/main/5-budget-tracker",
-            techStacks: ["JavaScript", "CSS"]
-        },
+                "https://github.com/anni/react-native-projects/tree/main/3-news-app",
+            techStacks: [
+                "React-Native",
+                "Firebase",
+                "React-Hook-Form",
+                "useSWR",
+                "Native-Base",
+                "Expo",
+                "TypeScript"
+            ]
+        }
+    ],
+    fullstack: [
         {
-            id: "movie-list",
-            title: "Movie List",
+            id: "register-and-search-news",
+            title: "Register and Search News",
             description:
-                "This is a movie list website. It shows latest trending movies on the screen. I have used themoviedb API to get the data of movies.",
-            websiteLink: "https://anni-movie-app.netlify.app",
+                "This is my news application developed with React-Native. I have used lots of frameworks with this project. It has sign up and sign in screens. Once user is authenticated it redirects user to home page to show the latest news from news API. I implemented categories, search, and skeleton loading into this project. There is also a profile section which user can see information about itself.",
+            websiteLink: "https://expo.dev/@anni/news-app",
             sourceLink:
-                "https://github.com/anni/javascript-projects/tree/main/4-movie-app",
-            techStacks: ["JavaScript", "CSS"]
-        },
-        {
-            id: "todo-list",
-            title: "To-Do List",
-            description:
-                "This is a to-do list website. As every beginner I made a to-do list to understand everything more in programming. User can add to-do, complete to-do, and delete to-do like so.",
-            websiteLink: "https://anni-todo-app.netlify.app",
-            sourceLink:
-                "https://github.com/anni/javascript-projects/tree/main/2-todo-list",
-            techStacks: ["JavaScript", "CSS"]
-        },
-        {
-            id: "search-weather-location",
-            title: "Search Weather Location",
-            description:
-                "This is a weather website to show weather of a given location. I have used Openweathermap API to get the data and show to the user. It also has the search functionality for a location.",
-            websiteLink: "https://anni-weather-app.netlify.app",
-            sourceLink:
-                "https://github.com/anni/javascript-projects/tree/main/1-weather-web-app",
-            techStacks: ["JavaScript", "CSS"]
+                "https://github.com/anni/react-native-projects/tree/main/3-news-app",
+            techStacks: [
+                "React-Native",
+                "Firebase",
+                "React-Hook-Form",
+                "useSWR",
+                "Native-Base",
+                "Expo",
+                "TypeScript"
+            ]
         }
     ]
 } satisfies Record<Category, ProjectItem[]>;

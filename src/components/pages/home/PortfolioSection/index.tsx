@@ -8,7 +8,7 @@ import { categoryButtons } from "./categoryButtons";
 import ProjectItem from "./ProjectItem";
 
 export default function PortfolioSection() {
-    const [category, setCategory] = useState<Category>("nextjs");
+    const [category, setCategory] = useState<Category>("dataanalytics");
 
     const t = useTranslations("Home.PortfolioSection");
 
@@ -31,7 +31,6 @@ export default function PortfolioSection() {
                                     "border-white text-white [&>svg]:fill-white"
                             )}
                         >
-                            <categoryButton.icon className="h-6 w-6 fill-primary-100 transition group-hover:fill-white" />
                             <span>{categoryButton.title}</span>
                         </button>
                     ))}

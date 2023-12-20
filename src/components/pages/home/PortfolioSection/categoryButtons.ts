@@ -1,24 +1,34 @@
-import { JavascriptIcon, NextIcon, ReactIcon } from "@src/icons";
-
 export const categoryButtons = [
+    // {
+    //     id: "genai",
+    //     title: "Generative AI",
+    // },
+    // {
+    //     id: "mlops",
+    //     title: "MLOps",
+    // },
     {
-        id: "nextjs",
-        title: "Next JS",
-        icon: NextIcon
+        id: "dataanalytics",
+        title: "Data Analytics",
     },
     {
-        id: "reactjs",
-        title: "React JS",
-        icon: ReactIcon
+        id: "nlp",
+        title: "Natural Language Processing",
     },
     {
-        id: "reactNative",
-        title: "React Native",
-        icon: ReactIcon
+        id: "cv",
+        title: "Computer Vision",
     },
+    // {
+    //     id: "recommendation",
+    //     title: "Recommendation System",
+    // },
+    // {
+    //     id: "mp",
+    //     title: "Mathmatical Programming",
+    // },
     {
-        id: "javascript",
-        title: "Javascript",
-        icon: JavascriptIcon
+        id: "fullstack",
+        title: "Full Stack",
     }
 ] as const;
